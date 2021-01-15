@@ -1,0 +1,16 @@
+magic
+tech sky130A
+timestamp 1610565851
+<< nmos >>
+rect 35 -5 50 60
+<< ndiff >>
+rect -5 -5 35 60
+rect 50 -5 90 60
+<< poly >>
+rect 35 60 50 100
+rect 35 -50 50 -5
+<< labels >>
+rlabel ndiff 5 10 25 45 1 source
+rlabel ndiff 60 10 80 45 1 drain
+rlabel poly 35 -50 50 -25 1 gate
+<< end >>

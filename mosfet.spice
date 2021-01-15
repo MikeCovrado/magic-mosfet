@@ -4,6 +4,10 @@
 * Top level circuit mosfet
 
 X0 drain gate source VSUBS sky130_fd_pr__nfet_01v8 w=650000u l=150000u
-C0 gate VSUBS 0.05fF
-.end
+C0 source gate 0.14fF
+C1 source drain 0.05fF
+C2 drain VSUBS 0.12fF
+C3 source VSUBS 0.09fF
+C4 gate VSUBS 0.39fF
+
 
